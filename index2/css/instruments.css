@@ -1,0 +1,93 @@
+.body
+{
+    margin: 0;
+    background-color: #17263d;
+    color: #fff;
+}
+.navbar
+{
+    width: 60%;
+    height: 60px;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -94px;
+    transition: 0.2s ;
+}
+.logo
+{
+   font-size: 45px;
+   font-family: sans-serif;
+   margin-left: 30px;
+   margin-top: 10px;
+   font-weight: 400;
+}
+.list
+{
+    margin: 0 auto;
+}
+.list ul 
+{
+    display: flex;
+    gap: 110px;
+    list-style: none;
+}
+.list ul li
+{
+    font-size: 22px;
+    transition: 0.2s;
+}
+.list ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.list ul li:hover
+{
+    margin-top: -5px;
+    cursor: pointer;
+    color: rgb(20, 20, 20);
+}
+.main
+{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+.title
+{
+    margin-top: 130px;
+    font-size: 60px;
+}
+.instuments-block
+{
+    margin-top: 40px;
+    width: 100%;
+    height: 140px;
+    background-color: rgba(200, 200, 200, 0.5);
+    border-radius: 10px;
+    padding: 25px 0px;
+    text-align: center;
+    transition: 0.2s;
+}
+.instuments-block:hover
+{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.blocks a
+{
+    text-decoration: none;
+}
+.instuments-block h2
+{
+    font-size: 38px;
+    color:#fff;
+}
+.instuments-block p
+{
+    font-size: 20px;
+    line-height: 1.2;
+    color: #fff;
+}

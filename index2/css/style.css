@@ -1,0 +1,134 @@
+.body
+{   
+    /* height: 1300px; */
+    margin: 0;
+    background-color: #17263d;
+    color: #fff;
+    background-image: url(../image/earth.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    width: 60%;
+    height: 60px;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -94px;
+    transition: 0.2s ;
+}
+
+.logo
+{
+   font-size: 45px;
+   font-family: sans-serif;
+   margin-left: 30px;
+   margin-top: 10px;
+   font-weight: 400;
+}
+.list
+{
+    margin: 0 auto;
+}
+.list ul
+{
+    display: flex;
+    gap: 110px;
+    list-style: none;
+}
+.list ul li
+{
+    font-size: 22px;
+    transition: 0.2s;
+}
+.list ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.list ul li:hover
+{
+    margin-top: -5px;
+    cursor: pointer;
+    color: rgb(20, 20, 20);
+}
+.first_block
+{
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 110px;
+}
+.first_block h1
+{
+    font-size: 80px;
+    color: #fff;
+    line-height: 1;
+}
+
+.first_block p
+{
+    width: 82ch;
+    font-size: 25px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid orange;
+    animation: flashing-border 1s step-end infinite, printed-text 1s steps(100);
+}
+@keyframes flashing-border
+{
+    0%
+    {
+        border-color: rgb(200, 200, 200);
+    }
+    50%
+    {
+        border-color: transparent;
+    }
+    100%
+    {
+        border-color: rgb(200, 200, 200);
+    }
+}
+@keyframes printed-text
+{
+    from
+    {
+        width: 0;
+    }
+}
+
+.second_block
+{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 50px;
+}
+.second_block h2, .third_block h2
+{
+    font-size: 40px;
+}
+.second_block p, .third_block p
+{
+    font-size: 20px;
+}
+.third_block
+{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+.main
+{
+    width: 92%;
+    height:500px ;
+    margin:  0 auto;
+}
+.main iframe
+{
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+}

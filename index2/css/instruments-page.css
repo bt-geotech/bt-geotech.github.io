@@ -1,0 +1,79 @@
+.body
+{
+    margin: 0;
+    background-color: #17263d;
+    color: #fff;
+    background-image: url(../image/earth.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navbar
+{
+    width: 60%;
+    height: 60px;
+    background-color: rgba(200, 200, 200, 0.5);
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: -94px;
+    transition: 0.2s ;
+}
+.logo
+{
+   font-size: 45px;
+   font-family: sans-serif;
+   margin-left: 30px;
+   margin-top: 10px;
+   font-weight: 400;
+}
+.list
+{
+    margin: 0 auto;
+}
+.list ul
+{
+    display: flex;
+    gap: 110px;
+    list-style: none;
+}
+.list ul li
+{
+    font-size: 22px;
+    transition: 0.2s;
+}
+.list ul li a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.list ul li:hover
+{
+    margin-top: -5px;
+    cursor: pointer;
+    color: rgb(20, 20, 20);
+}
+.main h2
+{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 100px;
+}
+.main p
+{
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.page
+{
+    width: 92%;
+    height: 500px;
+    margin: 0 auto;
+}
+.page iframe
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 20px;
+}
